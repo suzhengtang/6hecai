@@ -1,0 +1,69 @@
+/*把像素转成rem
+ 375/10  = 37.5
+ 375 它是ipone6的屏幕宽度
+*/
+.fs(@px){
+  font-size: unit(@px/37.5,rem);
+}
+.w(@px){
+  width: unit(@px/37.5,rem);
+}
+.h(@px){
+  height: unit(@px/37.5,rem);
+}
+.lh(@px){
+  line-height: unit(@px/37.5,rem);
+}
+.pl(@px){
+  padding-left: unit(@px/37.5,rem);
+}
+.pr(@px){
+  padding-right: unit(@px/37.5,rem);
+}
+.pt(@px){
+  padding-top: unit(@px/37.5,rem);
+}
+.pb(@px){
+  padding-bottom: unit(@px/37.5,rem);
+}
+
+.mt(@px){
+  margin-top:unit(@px/37.5,rem);;
+}
+.mb(@px){
+  margin-bottom:unit(@px/37.5,rem);
+}
+.ml(@px){
+  margin-left:unit(@px/37.5,rem);
+}
+.mr(@px){
+  margin-right:unit(@px/37.5,rem);
+}
+.top(@px){
+  top:unit(@px/37.5,rem);
+}
+.bottom(@px){
+  bottom:unit(@px/37.5,rem);
+}
+.left(@px){
+  left:unit(@px/37.5,rem);
+}
+.right(@px){
+  right:unit(@px/37.5,rem);
+}
+
+.padding(@tb,@lr){
+  padding: unit(@tb/37.5,rem) unit(@lr/37.5,rem);;
+}
+.margin(@tb,@lr){
+  margin: unit(@tb/37.5,rem) unit(@lr/37.5,rem);;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix{
+  clear: both;
+}
